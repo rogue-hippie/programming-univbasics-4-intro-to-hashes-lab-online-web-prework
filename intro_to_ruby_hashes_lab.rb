@@ -34,11 +34,11 @@ def read_from_hash(hash, key)
 
 def update_counting_hash(hash, key)
   hash = {
-    key: 2 
+    key: 2
   }
   
-  if hash[key]
-    hash[key] += 1 
-  else hash[key] = 1 
+  if hash[door]
+    hash[door] += 1 
+  else hash[door] = 1 
   end
 end
