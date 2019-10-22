@@ -35,9 +35,8 @@ def read_from_hash(hash, key)
 def update_counting_hash(hash, key)
   hash = {
     key: 2 
-    door: 5
   }
   
+  if hash[key]
   
-  }
 end
